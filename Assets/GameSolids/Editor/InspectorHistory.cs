@@ -24,7 +24,7 @@ namespace gamesolids
 		/// <summary>
 		/// Opens the Inspector History editor window.
 		/// </summary>
-		[MenuItem("Tools/GameSolids/Inspector History")]
+		[MenuItem("Tools/GameSolids/Inspector History &h")] // Alt + H
 		public static void ShowWindow() => GetWindow<InspectorHistory>("Inspector History");
 
 		/// <summary>
